@@ -18,13 +18,13 @@ export default {
   
     resolve: {
       alias: {
-        '@img': path.resolve(__dirname, 'src/shared/ui/assets/images'),
-  
-        '@icon': path.resolve(__dirname, 'src/shared/ui/assets/icons'),
-  
-        '@styles':  path.resolve(__dirname, 'src/shared/ui/styles'),
+        "@shared": path.resolve(__dirname, 'src/shared'), 
 
-        '@components': path.resolve(__dirname, 'src/components')
+        // '@img': path.resolve(__dirname, 'src/shared/ui/assets/images'),
+  
+        // '@icon': path.resolve(__dirname, 'src/shared/ui/assets/icons'),
+  
+        // '@styles':  path.resolve(__dirname, 'src/shared/ui/styles')
       }
     },
   
