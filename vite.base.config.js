@@ -18,13 +18,7 @@ export default {
   
     resolve: {
       alias: {
-        "@shared": path.resolve(__dirname, 'src/shared'), 
-
-        // '@img': path.resolve(__dirname, 'src/shared/ui/assets/images'),
-  
-        // '@icon': path.resolve(__dirname, 'src/shared/ui/assets/icons'),
-  
-        // '@styles':  path.resolve(__dirname, 'src/shared/ui/styles')
+        "@shared": path.resolve(__dirname, 'src/shared')
       }
     },
   
