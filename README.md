@@ -1,0 +1,1 @@
+# fsd-vite-effector-react-template
