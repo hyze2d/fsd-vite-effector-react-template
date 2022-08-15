@@ -1,4 +1,4 @@
-import { createView } from '@shared/lib/view';
+import { createView } from '@/shared/lib/view';
 
 import { $theme } from './model';
 

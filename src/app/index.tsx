@@ -1,8 +1,8 @@
 import { useUnit } from 'effector-react';
 
-import { $$boot } from '@processes/boot/model';
+import { $$boot } from '@/processes/boot';
 
-import { Pages } from '@pages';
+import { Pages } from '@/pages';
 
 const App = () => {
   const ready = useUnit($$boot.$ready);

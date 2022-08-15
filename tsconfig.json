@@ -25,20 +25,7 @@
     "useUnknownInCatchVariables": true,
     
     "paths": {
-      "@components": ["./src/components"],
-      "@components/*": ["./src/components/*"],
-      "@processes/*": ["./src/processes/*"],
-      "@layouts/*": ["./src/widgets/layouts/*"],
-      "@widgets/*": ["./src/widgets/*"],
-      "@features/*": ["./src/features/*"],
-      "@entities/*": ["./src/entities/*"],
-      "@shared/*": ["./src/shared/*"],
-      "@routes": ["./src/shared/config/routes.ts"],
-      "@env": ["./src/shared/config/environment.ts"],
-      "@pages": ["./src/pages/index"],
-      "@pages/*": ["./src/pages/*"],
-      "@app": ["./src/app/index"],
-      "@app/*": ["./src/app/*"]
+      "@/*": ["./src/*"],
     }
   },
   "include": ["src"],

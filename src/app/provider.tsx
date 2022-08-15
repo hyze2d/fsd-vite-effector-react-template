@@ -2,7 +2,7 @@ import { RouterProvider } from 'atomic-router-react';
 
 import type { FC, PropsWithChildren } from 'react';
 
-import { Theme } from '@shared/ui/theme';
+import { Theme } from '@/shared/ui/theme';
 
 import { router } from './router';
 

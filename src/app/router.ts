@@ -2,7 +2,7 @@ import { createHistoryRouter } from 'atomic-router';
 
 import { createBrowserHistory } from 'history';
 
-import { routes } from '@shared/routes';
+import { routes } from '@/shared/routes';
 
 const history = createBrowserHistory();
 
