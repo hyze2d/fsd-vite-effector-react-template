@@ -1,0 +1,19 @@
+{
+  "storybook": {
+    "design": {
+      "url": "https://google.com"
+    }
+  },
+
+  "api": {
+    "dir": "src/shared/api",
+
+    "source": [
+      {
+        "name": "petstore",
+
+        "url": "https://petstore.swagger.io/v2/swagger.json"
+      }
+    ]
+  }
+}

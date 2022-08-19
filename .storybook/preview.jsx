@@ -1,15 +1,15 @@
 import { withDesign } from 'storybook-addon-designs';
 
+import config from '../project.config.json';
+
 import { Provider } from '../src/app/provider';
 
 import '../src/app/styles/index.scss';
 
-const DESIGN_SYSTEM_URL = `https://google.com`;
-
-export const parameters = {
-  actions: { 
+const parameters = {
+  actions: {
     argTypesRegex: '^on[A-Z].*'
-   },
+  },
 
   controls: {
     matchers: {
@@ -22,16 +22,18 @@ export const parameters = {
   design: {
     type: 'invision',
 
-    url: DESIGN_SYSTEM_URL
+    url: config.storybook.design.url
   }
 };
 
-export const decorators = [
+const decorators = [
   withDesign,
-  
+
   Story => (
     <Provider>
       <Story />
     </Provider>
   )
 ];
+
+export { parameters, decorators };

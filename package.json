@@ -11,7 +11,8 @@
       "validate:eslint": "eslint \"./src/**/*.{ts,tsx}\" --fix",
       "validate:stylelint": "stylelint --fix \"./src/**/*.scss\"",
       "storybook:start": "start-storybook --no-manager-cache -p 6006",
-      "storybook:build": "build-storybook"
+      "storybook:build": "build-storybook",
+      "project:api:codegen": "node ./scripts/swagger.cjs"
    },
    "dependencies": {
       "atomic-router": "^0.6.1",
@@ -19,7 +20,7 @@
       "classnames": "^2.3.1",
       "deepmerge": "^4.2.2",
       "effector": "^22.3.0",
-      "effector-http-api": "^1.0.0",
+      "effector-http-api": "^2.0.6",
       "effector-react": "^22.1.6",
       "effector-storage": "^5.0.0",
       "effector-view": "^2.0.14",
@@ -94,6 +95,7 @@
       "stylelint-order": "^5.0.0",
       "stylelint-prettier": "^1.1.2",
       "stylelint-scss": "^4.2.0",
+      "swagger-typescript-api": "^10.0.1",
       "typescript": "^4.6.4",
       "unimported": "^1.20.0",
       "vite": "^3.0.0",
