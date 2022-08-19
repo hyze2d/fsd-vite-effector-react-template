@@ -1,6 +1,6 @@
 ## State Manager & Common STM solutions
 ☑️ Effector: STM 
-⬜ Effector-http-api: API Requests, API Codegen
+☑️ Effector-http-api: API Requests, API Codegen
 ⬜ Effector-storage: Interaction with local/session/query storage
 ⬜ Effector-view: Improved view connector (need finalization)
 ⬜ Re-forms: Form solution (in progress)
