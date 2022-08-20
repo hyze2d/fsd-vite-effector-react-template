@@ -9,9 +9,9 @@
 ## Design System
 ⬜ Stitches: Styling solution, design system
 ⬜ Radix: Customizible preset of common components
-⬜ Storybook: Stand for a design system preview ☑️
+☑️ Storybook: Stand for a design system preview 
 ⬜ Animations: Create Default Set Using stitches
-⬜ Responsive: Stitches BPs
+☑️ Responsive: Stitches BPs
 
 ## Quality
 

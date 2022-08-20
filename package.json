@@ -15,9 +15,12 @@
       "project:api:codegen": "node ./scripts/swagger.cjs"
    },
    "dependencies": {
+      "@radix-ui/react-checkbox": "^1.0.0",
+      "@stitches/react": "^1.2.8",
       "atomic-router": "^0.6.1",
       "atomic-router-react": "^0.6.0",
       "classnames": "^2.3.1",
+      "copy-to-clipboard": "^3.3.2",
       "deepmerge": "^4.2.2",
       "effector": "^22.3.0",
       "effector-http-api": "^2.0.6",

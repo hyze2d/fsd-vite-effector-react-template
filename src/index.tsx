@@ -6,12 +6,10 @@ import { App, Provider } from '@/app';
 
 import { $$boot } from '@/processes/boot';
 
-const root = createRoot(document.getElementById('root')!);
+$$boot.boot();
 
-root.render(
+createRoot(document.getElementById('root')!).render(
   <Provider>
     <App />
   </Provider>
 );
-
-$$boot.boot();
