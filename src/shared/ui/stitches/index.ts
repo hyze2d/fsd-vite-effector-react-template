@@ -31,13 +31,49 @@ const { styled, theme } = createStitches({
 
   media: {
     xs: '(min-width: 375px)',
+
     sm: '(min-width: 480px)',
+
     md: '(min-width: 768px)',
+
     lg: '(min-width: 1172px)',
+
     xl: '(min-width: 1440px)'
   },
 
   utils: {
+    mt: (payload: string) => ({
+      marginTop: payload
+    }),
+
+    mb: (payload: string) => ({
+      marginBottom: payload
+    }),
+
+    ml: (payload: string) => ({
+      marginLeft: payload
+    }),
+
+    mr: (payload: string) => ({
+      marginRight: payload
+    }),
+
+    pt: (payload: string) => ({
+      paddingTop: payload
+    }),
+
+    pb: (payload: string) => ({
+      paddingBottom: payload
+    }),
+
+    pl: (payload: string) => ({
+      paddingLeft: payload
+    }),
+
+    pr: (payload: string) => ({
+      paddingRight: payload
+    }),
+
     px: (value: string) => ({
       paddingLeft: value,
       paddingRight: value
@@ -61,6 +97,29 @@ const { styled, theme } = createStitches({
     size: (value: string) => ({
       width: value,
       height: value
+    }),
+
+    row: () => ({
+      display: 'flex',
+      alignItems: 'center'
+    }),
+
+    flexCol: () => ({
+      display: 'flex',
+      flexDirection: 'column',
+      alignItems: 'stretch'
+    }),
+
+    flexCenter: () => ({
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center'
+    }),
+
+    truncate: (_: boolean) => ({
+      whiteSpace: 'nowrap',
+      overflow: 'hidden',
+      textOverflow: 'ellipsis'
     })
   }
 });
