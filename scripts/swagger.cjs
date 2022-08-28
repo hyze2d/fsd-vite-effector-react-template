@@ -35,7 +35,7 @@ for (const source of config.api.source) {
 
     output: `${dir}${multiple ? '/' + source.name : ''}`,
 
-    url: source.url,
+    url: process.env[source.url],
 
     httpClientType: 'axios',
 

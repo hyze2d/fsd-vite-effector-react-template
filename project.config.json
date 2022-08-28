@@ -12,7 +12,7 @@
       {
         "name": "petstore",
 
-        "url": "https://petstore.swagger.io/v2/swagger.json"
+        "url": "PET_STORE_URL"
       }
     ]
   }

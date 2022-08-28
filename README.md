@@ -18,7 +18,7 @@
 ☑️ Eslint 
 ⬜ Commitlint: Done, also add conventional jira format
 ⬜ Sonarlint: Setup guide 
-⬜ Unit Testing: Vitest      
+☑️ Unit Testing: Vitest      
 ⬜ E2E Testing: Research
 ⬜ Profiling: Need Guide
 
