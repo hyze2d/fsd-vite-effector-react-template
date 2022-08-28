@@ -23,7 +23,7 @@
     "strictNullChecks": false,
     "strictFunctionTypes": true,
     "useUnknownInCatchVariables": true,
-    
+    "types": ["vitest/globals"],
     "paths": {
       "@/*": ["./src/*"],
     }

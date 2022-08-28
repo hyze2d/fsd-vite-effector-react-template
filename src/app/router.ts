@@ -2,7 +2,9 @@ import { createHistoryRouter } from 'atomic-router';
 
 import { createBrowserHistory } from 'history';
 
-import { routes } from '@/shared/routes';
+import { $$homePage } from '@/pages/home';
+
+import { $$settingsPage } from '@/pages/settings';
 
 const history = createBrowserHistory();
 
@@ -11,13 +13,13 @@ const router = createHistoryRouter({
     {
       path: '/',
 
-      route: routes.home
+      route: [$$homePage.route, $$settingsPage.goToHomeRoute]
     },
 
     {
       path: '/settings',
 
-      route: routes.settings
+      route: [$$settingsPage.route, $$homePage.goToSettingsRoute]
     }
   ]
 });

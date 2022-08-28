@@ -1,12 +1,12 @@
 import { Link } from 'atomic-router-react';
 
-import { routes } from '@/shared/routes';
+import { $$settingsPage } from './settings.model';
 
 const SettingsPage = () => (
   <div>
     <h1>Welcome To Settings</h1>
 
-    <Link to={routes.home}>Go Home</Link>
+    <Link to={$$settingsPage.goToHomeRoute}>Go Home</Link>
   </div>
 );
 

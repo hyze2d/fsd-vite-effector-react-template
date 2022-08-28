@@ -12,7 +12,11 @@
       "validate:stylelint": "stylelint --fix \"./src/**/*.scss\"",
       "storybook:start": "start-storybook --no-manager-cache -p 6006",
       "storybook:build": "build-storybook",
-      "project:api:codegen": "node ./scripts/swagger.cjs"
+      "project:api:codegen": "node ./scripts/swagger.cjs",
+      "unit:run": "vitest",
+      "unit:run:coverage": "vitest --coverage",
+      "unit:watch": "vitest --watch --ui",
+      "unit:watch:coverage": "vitest --watch --coverage --ui"
    },
    "dependencies": {
       "@radix-ui/react-checkbox": "^1.0.0",
@@ -52,10 +56,7 @@
       "@storybook/addon-storysource": "^6.5.9",
       "@storybook/builder-vite": "^0.2.2",
       "@storybook/react": "^6.5.9",
-      "@testing-library/jest-dom": "^5.16.4",
       "@testing-library/react": "^13.3.0",
-      "@testing-library/user-event": "^13.5.0",
-      "@types/jest": "^27.5.2",
       "@types/node": "^16.11.44",
       "@types/object-path": "^0.11.1",
       "@types/react": "^18.0.15",
@@ -65,6 +66,9 @@
       "@types/react-router-dom": "^5.1.7",
       "@typescript-eslint/eslint-plugin": "^5.27.0",
       "@vitejs/plugin-react": "^2.0.0",
+      "@vitest/coverage-c8": "^0.22.1",
+      "@vitest/coverage-istanbul": "^0.22.1",
+      "@vitest/ui": "^0.22.1",
       "eslint": "^8.15.0",
       "eslint-config-next": "12.1.5",
       "eslint-config-prettier": "^6.15.0",
@@ -79,6 +83,7 @@
       "eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
       "eslint-plugin-unused-imports": "^1.0.0",
       "husky": "^8.0.1",
+      "jsdom": "^20.0.0",
       "lint-staged": "^9.4.3",
       "postcss-import": "^14.1.0",
       "prettier": "^2.1.2",
@@ -104,6 +109,7 @@
       "vite": "^3.0.0",
       "vite-plugin-checker": "^0.4.9",
       "vite-plugin-svgr": "^2.2.1",
-      "vite-tsconfig-paths": "^3.5.0"
+      "vite-tsconfig-paths": "^3.5.0",
+      "vitest": "^0.22.1"
    }
 }
