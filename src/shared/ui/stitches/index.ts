@@ -26,6 +26,16 @@ const { styled, theme } = createStitches({
 
     lineHeights: {
       'body-1': '18px'
+    },
+
+    space: {
+      '1': '8px',
+      '1.5': '12px',
+      '2': '16px',
+      '2.5': '20px',
+      '3': '24px',
+      '3.5': '28px',
+      '4': '32px'
     }
   },
 

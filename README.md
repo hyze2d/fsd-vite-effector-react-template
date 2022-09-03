@@ -9,6 +9,7 @@
 ## Design System
 - ☑️ Stitches: Styling solution, design system
 - ⬜ Radix: Customizible preset of common components
+- ⬜ Component Library
 - ☑️ Storybook: Stand for a design system preview 
 - ⬜ Animations: Create Default Set Using stitches
 - ☑️ Responsive: Stitches BPs
@@ -39,7 +40,6 @@
 - ⬜ Model structure
 
 ## Base Project
-- ⬜ Component Library
 - ⬜ Base Project Example: Public Landing Page, Authorization (Login/Recovery/Set Password/Registration), Dashboard, User Profile, Role System.
 - ⬜ Preset Lib: List of most common solutions/references.
 
