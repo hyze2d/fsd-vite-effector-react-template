@@ -52,6 +52,4 @@ const Text = styled('div', {
   }
 });
 
-<Text variant='body1' bold italic  />;
-
 export { Text };
