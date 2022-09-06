@@ -12,8 +12,46 @@ const Text = styled('div', {
         fontSize: '28px',
         lineHeight: '36px'
       }
+    },
+
+    thin: {
+      true: {
+        fontWeight: 300
+      }
+    },
+
+    normal: {
+      true: {
+        fontWeight: 400
+      }
+    },
+
+    medium: {
+      true: {
+        fontWeight: 500
+      }
+    },
+
+    semiBold: {
+      true: {
+        fontWeight: 600
+      }
+    },
+
+    bold: {
+      true: {
+        fontWeight: 700
+      }
+    },
+
+    italic: {
+      true: {
+        fontStyle: 'italic'
+      }
     }
   }
 });
+
+<Text variant='body1' bold italic  />;
 
 export { Text };
