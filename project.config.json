@@ -10,9 +10,9 @@
 
     "source": [
       {
-        "name": "petstore",
+        "name": "npg-core",
 
-        "url": "PET_STORE_URL"
+        "url": "NPG_CORE_API_SPEC_URL"
       }
     ]
   }
